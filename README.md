@@ -1,5 +1,6 @@
 # Charged-particles
 CFD-DEM simulation of Charged particles. If employed, please also cite: doi: 10.1016/j.powtec.2020.06.086
+
 If only DEM is needed, which considers drag forces as well, only files under liggghtssrc need to be compiled.
 Back up the original files in your own LIGGGHTS/src, and replace them with the given files.use 'make mpi' to compile LIGGGHTS again.
 
