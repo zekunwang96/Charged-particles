@@ -10,4 +10,8 @@ CFDEM/CFDEMcoupling-PUBLIC-5.x/src/lagrangian/cfdemParticle/subModels/forceModel
 CFDEM/CFDEMcoupling-PUBLIC-5.x/src/lagrangian/cfdemParticle/subModels/averagingModel/
 CFDEM/CFDEMcoupling-PUBLIC-5.x/applications/solvers/
 
-
+NOTE: 
+elelac/elec.C"
+"vector x=mesh.faceCentres()[facei];"
+should be
+"vector x=mesh.Cf().boundaryField()[patchi][facei];"
